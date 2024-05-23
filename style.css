@@ -1,0 +1,71 @@
+.formStudent {
+    border: 2px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px;
+}
+
+.formStudent td{
+    border: 2px black solid;
+    text-align: center;
+    padding: 10px;
+   
+}
+.formStudent .heading{
+    font-size: 26px;
+    font-weight: 600;
+    color: blue;
+}
+
+ .btnClass{
+background-color: green;
+color: white;
+ border: none;
+ border-radius: 5px;
+font-size: 16px;
+padding: 5px;
+margin: 2px;
+}
+
+
+.btn_classEdit{
+    background-color: green;
+    color: white;
+     border: none;
+     border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    }
+
+    .btn_classDelete{
+        background-color: brown;
+        color: white;
+         border: none;
+         border-radius: 5px;
+        font-size: 15px;
+        padding: 5px;
+        margin: 2px;
+        }
+
+.studentDetails{
+    margin-top: 20px;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+}
+
+.studentDetails th, .studentDetails td {
+    border: 2px black solid;
+}
+
+#userAge{
+    width: 170px;
+}
+
+.genderDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

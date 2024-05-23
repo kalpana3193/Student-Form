@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<form>>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Student Form</title>
+</head>
+
+<body>
+    <section>
+        <form id="studentForm">
+            <table class="formStudent">
+
+                <tbody class="formBody">
+                    <tr>
+                        <td colspan="2" class="heading">Student Form</td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input  required name="userName" type="text" id="userName" required></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input required name="userAge" type="number" id="userAge" min="18" max="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <div class="genderDetails">
+                                <span>Male: </span><input name="userGender" type="radio" id="userGenderMale">
+                                <span>Female: </span><input name="userGender" type="radio" id="userGenderFemale">
+                            </div>
+                        </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input name="userEmail" type="email" id="userEmail"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="submitButton"><button class="btnClass" id=formSubmit"">Submit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
+
+
+
+
+    <section>
+        <table class="studentDetails" id="tableDetails" style="display:none;">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
